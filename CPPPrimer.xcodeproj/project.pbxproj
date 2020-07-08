@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		922A254F24AEAE7200A2C20D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 922A254E24AEAE7200A2C20D /* main.cpp */; };
+		922A255724AEB0CA00A2C20D /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 922A255524AEB0CA00A2C20D /* Employee.cpp */; };
+		922A255A24B15DE600A2C20D /* Manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 922A255824B15DE600A2C20D /* Manager.cpp */; };
+		922A255E24B1704700A2C20D /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 922A255C24B1704700A2C20D /* Animal.cpp */; };
+		922A256124B1707500A2C20D /* Cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 922A255F24B1707500A2C20D /* Cat.cpp */; };
+		922A256524B1943300A2C20D /* GenericsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 922A256324B1943300A2C20D /* GenericsTest.cpp */; };
+		922A256824B19B0D00A2C20D /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 922A256624B19B0D00A2C20D /* Stack.cpp */; };
+		922A256C24B23FB700A2C20D /* ExceptionHandling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 922A256A24B23FB700A2C20D /* ExceptionHandling.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		922A254B24AEAE7200A2C20D /* CPPPrimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPPrimer; sourceTree = BUILT_PRODUCTS_DIR; };
 		922A254E24AEAE7200A2C20D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		922A255524AEB0CA00A2C20D /* Employee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
+		922A255624AEB0CA00A2C20D /* Employee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Employee.hpp; sourceTree = "<group>"; };
+		922A255824B15DE600A2C20D /* Manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Manager.cpp; sourceTree = "<group>"; };
+		922A255924B15DE600A2C20D /* Manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Manager.hpp; sourceTree = "<group>"; };
+		922A255C24B1704700A2C20D /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		922A255D24B1704700A2C20D /* Animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animal.hpp; sourceTree = "<group>"; };
+		922A255F24B1707500A2C20D /* Cat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cat.cpp; sourceTree = "<group>"; };
+		922A256024B1707500A2C20D /* Cat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cat.hpp; sourceTree = "<group>"; };
+		922A256324B1943300A2C20D /* GenericsTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenericsTest.cpp; sourceTree = "<group>"; };
+		922A256424B1943300A2C20D /* GenericsTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenericsTest.hpp; sourceTree = "<group>"; };
+		922A256624B19B0D00A2C20D /* Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = "<group>"; };
+		922A256724B19B0D00A2C20D /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		922A256A24B23FB700A2C20D /* ExceptionHandling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExceptionHandling.cpp; sourceTree = "<group>"; };
+		922A256B24B23FB700A2C20D /* ExceptionHandling.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ExceptionHandling.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +78,47 @@
 		922A254D24AEAE7200A2C20D /* CPPPrimer */ = {
 			isa = PBXGroup;
 			children = (
+				922A256924B23FA100A2C20D /* ExcpetionHandling */,
+				922A256224B1941F00A2C20D /* Generics */,
+				922A255B24B1703500A2C20D /* AbstractClassesDemo */,
 				922A254E24AEAE7200A2C20D /* main.cpp */,
+				922A255524AEB0CA00A2C20D /* Employee.cpp */,
+				922A255624AEB0CA00A2C20D /* Employee.hpp */,
+				922A255824B15DE600A2C20D /* Manager.cpp */,
+				922A255924B15DE600A2C20D /* Manager.hpp */,
 			);
 			path = CPPPrimer;
+			sourceTree = "<group>";
+		};
+		922A255B24B1703500A2C20D /* AbstractClassesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				922A255C24B1704700A2C20D /* Animal.cpp */,
+				922A255D24B1704700A2C20D /* Animal.hpp */,
+				922A255F24B1707500A2C20D /* Cat.cpp */,
+				922A256024B1707500A2C20D /* Cat.hpp */,
+			);
+			path = AbstractClassesDemo;
+			sourceTree = "<group>";
+		};
+		922A256224B1941F00A2C20D /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				922A256324B1943300A2C20D /* GenericsTest.cpp */,
+				922A256424B1943300A2C20D /* GenericsTest.hpp */,
+				922A256624B19B0D00A2C20D /* Stack.cpp */,
+				922A256724B19B0D00A2C20D /* Stack.hpp */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		922A256924B23FA100A2C20D /* ExcpetionHandling */ = {
+			isa = PBXGroup;
+			children = (
+				922A256A24B23FB700A2C20D /* ExceptionHandling.cpp */,
+				922A256B24B23FB700A2C20D /* ExceptionHandling.hpp */,
+			);
+			path = ExcpetionHandling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +179,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				922A254F24AEAE7200A2C20D /* main.cpp in Sources */,
+				922A255E24B1704700A2C20D /* Animal.cpp in Sources */,
+				922A256C24B23FB700A2C20D /* ExceptionHandling.cpp in Sources */,
+				922A256124B1707500A2C20D /* Cat.cpp in Sources */,
+				922A255A24B15DE600A2C20D /* Manager.cpp in Sources */,
+				922A256824B19B0D00A2C20D /* Stack.cpp in Sources */,
+				922A255724AEB0CA00A2C20D /* Employee.cpp in Sources */,
+				922A256524B1943300A2C20D /* GenericsTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
